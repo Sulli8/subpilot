@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className="bg-white shadow-md px-6 py-4 flex justify-between items-center sticky top-0 z-50">
+    <nav >
       {/* Logo */}
       <div className="text-2xl font-bold text-blue-600 tracking-wide">
         SubPilot
@@ -11,22 +11,22 @@ export default function Navbar() {
       {/* Liens de navigation */}
       <ul className="hidden md:flex space-x-6 text-gray-700 font-medium">
         <li>
-          <a href="#" className="hover:text-blue-600 transition-colors duration-200">Tableau de bord</a>
+          <a href="#" >Tableau de bord</a>
         </li>
         <li>
-          <a href="#" className="hover:text-blue-600 transition-colors duration-200">Abonnements</a>
+          <a href="#" >Abonnements</a>
         </li>
         <li>
-          <a href="#" className="hover:text-blue-600 transition-colors duration-200">Clients</a>
+          <a href="#" >Clients</a>
         </li>
         <li>
-          <a href="#" className="hover:text-blue-600 transition-colors duration-200">Paiements</a>
+          <a href="#" >Paiements</a>
         </li>
         <li>
-          <a href="#" className="hover:text-blue-600 transition-colors duration-200">Notifications</a>
+          <a href="#" >Notifications</a>
         </li>
         <li>
-          <a href="#" className="hover:text-blue-600 transition-colors duration-200">Paramètres</a>
+          <a href="#" >Paramètres</a>
         </li>
       </ul>
 
